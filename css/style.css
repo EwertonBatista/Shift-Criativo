@@ -8,9 +8,6 @@
     box-sizing: border-box;
 }
 
-img {
-    max-width: 10%;
-}
 
 body {
     background-color: var(--color-primary);
@@ -23,13 +20,62 @@ body {
     height: 950px;
     display: flex;
     background: url("../img/Pattern-branco.png");
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-/* Logo */
+/* Logos */
 
-.container img {
-    
+.nome-shift {
+    width:400px;
+}
+
+.logo-shift {
+    width:80px;
+    margin-bottom: 30px;
+}
+
+.logo-media {
+    display: inline;
+    margin-top: 30px;
+}
+
+.p-logo {
+    font-family: "Nunito";
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin-top: 120px;
+}
+
+.seta-logo {
+    width: 30px;
+    animation: seta .5s ease-in-out infinite alternate;
+    margin-top: 90px;
+}
+
+.insta-logo, .behance-logo {
+    max-width: 40px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 7px;
+    transition: 1s;
+}
+
+.insta-logo:hover, .behance-logo:hover {
+    transform: scale(1.1);
+
+}
+
+
+
+@keyframes seta {
+    0% {
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
 }
 
