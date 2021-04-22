@@ -99,10 +99,12 @@ body {
 .projetos {
     max-width: 400px;
     border-radius: 30px;
+    overflow: hidden;
     transition:1s;
 }
 
 .projetos:hover {
-    max-width: 100%;
+    transform: scale(1.5);
+    z-index: 1;
 
 }
