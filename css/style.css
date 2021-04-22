@@ -101,10 +101,13 @@ body {
     border-radius: 30px;
     overflow: hidden;
     transition:1s;
+    box-shadow: 10px 5px 5px black;
+    
 }
 
 .projetos:hover {
     transform: scale(1.5);
     z-index: 1;
+    box-shadow: none;
 
 }
