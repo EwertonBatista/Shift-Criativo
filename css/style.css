@@ -2,7 +2,34 @@
     --color-primary: #F96C03;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.intro-logo {
+img {
+    max-width: 10%;
+}
+
+body {
     background-color: var(--color-primary);
 }
+
+/* Primeira pagina */
+
+.container {
+    width: 1920px;
+    height: 950px;
+    display: flex;
+    background: url("../img/Pattern-branco.png");
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+
+.container img {
+    
+}
+
