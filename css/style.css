@@ -1,0 +1,8 @@
+:root {
+    --color-primary: #F96C03;
+}
+
+
+.intro-logo {
+    background-color: var(--color-primary);
+}
