@@ -81,3 +81,28 @@ body {
     }
 }
 
+
+
+/* Projetos */
+
+.projects {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    grid-gap: 50px;
+}
+
+
+.projetos {
+    max-width: 400px;
+    border-radius: 30px;
+    transition:1s;
+}
+
+.projetos:hover {
+    max-width: 100%;
+
+}
