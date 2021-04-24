@@ -21,6 +21,13 @@ body {
     background-color: var(--color-primary);
 }
 
+/* Parallax */
+.parallax {
+    background-attachment: fixed;
+ }
+
+
+
 /* Primeira pagina */
 
 .container {
@@ -174,7 +181,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .footer > .logo-shift {
@@ -190,5 +197,5 @@ body {
 }
 
 .footer .text a {
-    font-size: 30px;
+    font-size: 15px;00:52 23/04/2021
 }
