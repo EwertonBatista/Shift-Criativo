@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+ul,li {
+    list-style: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -21,10 +25,26 @@ body {
     background-color: var(--color-primary);
 }
 
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    width: 1900px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.navbar-ul {
+    display: flex;
+    justify-content: space-between;
+    width:180px;
+}
+
 /* Parallax */
 .parallax {
     background-attachment: fixed;
- }
+}
 
 
 
@@ -197,5 +217,5 @@ body {
 }
 
 .footer .text a {
-    font-size: 15px;00:52 23/04/2021
+    font-size: 15px;
 }
