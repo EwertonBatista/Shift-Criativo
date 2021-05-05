@@ -1,0 +1,72 @@
+:root {
+    --color-primary: #F96C03;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--color-primary);
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.navbar-ul {
+    display: flex;
+    justify-content: center;
+    width:180px;
+    align-items: center;
+    
+}
+
+.navbar-ul li {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+
+}
+
+/* Container */
+
+.container {
+    width: 1900px;
+    height: 950px; /* 1080px */
+    display: flex;
+    background: url("../img/Pattern-branco.png");
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
