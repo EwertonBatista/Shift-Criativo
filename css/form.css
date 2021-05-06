@@ -68,12 +68,16 @@ body {
 
 /* Form */
 
+
 .form-div {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
 
+.formulario .field label {
+    padding-bottom: 15px;
+}
 
 .formulario{
     width: 400px;
