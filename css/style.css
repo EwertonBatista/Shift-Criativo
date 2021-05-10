@@ -42,6 +42,10 @@ body {
 
 }
 
+.navbar .logo-nav {
+    padding-left: 10px;
+}
+
 .navbar-ul {
     display: flex;
     justify-content: center;
