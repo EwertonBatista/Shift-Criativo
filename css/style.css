@@ -68,7 +68,7 @@ body {
 /* Primeira pagina */
 
 .container {
-    width: 1920px;
+    max-width: 100%;
     height: 950px; /* 1080px */
     display: flex;
     background: url("../img/Pattern-branco.png");
